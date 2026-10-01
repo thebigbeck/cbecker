@@ -1,7 +1,6 @@
 import Link from "next/link";
 import {
   Volume2,
-  Disc3,
   Tags,
   Code2,
   ShieldCheck,
@@ -27,8 +26,7 @@ export default function Home() {
               Bodenheim · Rheinhessen · Rhein-Main
             </p>
             <h1 className="mt-5 text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
-              Veranstaltungstechnik, DJ-Service &amp; Websites — aus einer
-              Hand
+              Veranstaltungstechnik &amp; Websites — aus einer Hand
             </h1>
             <p className="mt-6 text-base leading-relaxed text-white/75">
               Ich sorge für guten Ton, stimmungsvolles Licht und zuverlässige
@@ -82,18 +80,12 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <ServiceCard
             href="/veranstaltungstechnik"
             icon={Volume2}
             title="Veranstaltungstechnik"
             description="Vermietung von Ton-, Licht- und Videotechnik für Konzerte, Firmenevents, Vereinsfeiern und private Feste."
-          />
-          <ServiceCard
-            href="/dj-service"
-            icon={Disc3}
-            title="DJ-Service"
-            description="Musik und Moderation für Hochzeiten, Firmenevents und private Feiern — abgestimmt auf dich und deine Gäste."
           />
           <ServiceCard
             href="/gebrauchte-technik"

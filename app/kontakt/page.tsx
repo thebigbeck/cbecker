@@ -7,7 +7,7 @@ import { business } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Kontaktiere Christian Becker für Veranstaltungstechnik, DJ-Service, gebrauchte Technik oder ein IT-Projekt. An der Reithalle 21, 55294 Bodenheim.",
+    "Kontaktiere Christian Becker für Veranstaltungstechnik, gebrauchte Technik oder ein IT-Projekt. An der Reithalle 21, 55294 Bodenheim.",
 };
 
 export default function KontaktPage() {
@@ -20,7 +20,7 @@ export default function KontaktPage() {
       <PageHero
         eyebrow="Kontakt"
         title="Lass uns über dein Vorhaben sprechen"
-        description="Ob Veranstaltungstechnik, DJ-Anfrage oder IT-Projekt — schreib mir über das Formular oder direkt per E-Mail."
+        description="Ob Veranstaltungstechnik oder IT-Projekt — schreib mir über das Formular oder direkt per E-Mail."
       />
 
       <section className="mx-auto grid max-w-6xl gap-10 px-5 py-20 lg:grid-cols-[1fr_1.2fr]">

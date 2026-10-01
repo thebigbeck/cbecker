@@ -5,7 +5,6 @@ import { business } from "@/lib/content";
 
 const topics = [
   "Veranstaltungstechnik",
-  "DJ-Service",
   "Gebrauchte Technik",
   "IT-Dienstleistungen",
   "Sonstiges",

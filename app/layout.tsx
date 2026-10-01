@@ -16,12 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default:
-      "Christian Becker — Veranstaltungstechnik, DJ-Service & IT-Dienstleistungen",
+    default: "Christian Becker — Veranstaltungstechnik & IT-Dienstleistungen",
     template: "%s — Christian Becker",
   },
   description:
-    "Vermietung von Veranstaltungstechnik (Ton, Licht, Video), DJ-Service für Hochzeiten & Firmenevents, Verkauf gebrauchter Technik sowie Webentwicklung für kleine und mittelständische Unternehmen. Aus Bodenheim bei Mainz.",
+    "Vermietung von Veranstaltungstechnik (Ton, Licht, Video), Verkauf gebrauchter Technik sowie Webentwicklung für kleine und mittelständische Unternehmen. Aus Bodenheim bei Mainz.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

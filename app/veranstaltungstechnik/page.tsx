@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Volume2, Lightbulb, Video, CheckCircle2 } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
+import { equipmentExamples } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Veranstaltungstechnik mieten",
@@ -95,6 +96,44 @@ export default function VeranstaltungstechnikPage() {
       </section>
 
       <section className="bg-surface py-20">
+        <div className="mx-auto max-w-6xl px-5">
+          <p className="text-sm font-semibold uppercase tracking-wide text-amber">
+            Equipment
+          </p>
+          <h2 className="mt-3 text-2xl font-bold tracking-tight text-ink sm:text-3xl">
+            Beispiele aus unserem Bestand
+          </h2>
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted">
+            Ein Auszug aus Marken und Geräten, mit denen wir arbeiten —
+            professionelle Technik für anspruchsvolle Veranstaltungen.
+          </p>
+
+          <div className="mt-10 grid gap-6 lg:grid-cols-3">
+            {equipmentExamples.map((category) => (
+              <div
+                key={category.title}
+                className="rounded-2xl border border-border-soft bg-white p-7"
+              >
+                <h3 className="text-base font-semibold text-ink">
+                  {category.title}
+                </h3>
+                <ul className="mt-4 space-y-4">
+                  {category.items.map((item) => (
+                    <li key={item.name} className="text-sm leading-relaxed">
+                      <span className="font-semibold text-ink">
+                        {item.name}
+                      </span>
+                      <p className="mt-0.5 text-muted">{item.description}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20">
         <div className="mx-auto max-w-6xl px-5">
           <h2 className="text-2xl font-bold tracking-tight text-ink sm:text-3xl">
             Für welche Anlässe?
