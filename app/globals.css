@@ -10,6 +10,8 @@
   --amber-soft: #f4d9a8;
   --blue: #0082c8;
   --blue-soft: #2fa3df;
+  --hero: #0a2a42;
+  --hero-soft: #0f3a5a;
   --muted: #6b7280;
   --border-soft: #e7e5e0;
   --surface: #f7f5f1;
@@ -24,6 +26,8 @@
   --color-amber-soft: var(--amber-soft);
   --color-blue: var(--blue);
   --color-blue-soft: var(--blue-soft);
+  --color-hero: var(--hero);
+  --color-hero-soft: var(--hero-soft);
   --color-muted: var(--muted);
   --color-border-soft: var(--border-soft);
   --color-surface: var(--surface);

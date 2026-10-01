@@ -17,7 +17,7 @@ const equalizerHeights = [40, 65, 30, 80, 50, 95, 35, 70, 45, 60, 25, 85];
 export default function Home() {
   return (
     <>
-      <section className="relative overflow-hidden bg-ink text-white">
+      <section className="relative overflow-hidden bg-hero text-white">
         <div className="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full bg-amber/25 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-40 -right-20 h-96 w-96 rounded-full bg-blue/20 blur-3xl" />
 

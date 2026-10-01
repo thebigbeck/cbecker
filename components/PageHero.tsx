@@ -14,7 +14,7 @@ export default function PageHero({
   children,
 }: PageHeroProps) {
   return (
-    <section className="relative overflow-hidden bg-ink text-white">
+    <section className="relative overflow-hidden bg-hero text-white">
       <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-amber/20 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-32 -right-10 h-80 w-80 rounded-full bg-blue/20 blur-3xl" />
       <div className="relative mx-auto max-w-6xl px-5 py-20 sm:py-24">

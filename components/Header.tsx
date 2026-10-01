@@ -20,10 +20,10 @@ export default function Header() {
           <Image
             src="/logo.png"
             alt="cbecker.eu"
-            width={160}
-            height={103}
+            width={220}
+            height={142}
             priority
-            className="h-9 w-auto sm:h-10"
+            className="h-12 w-auto sm:h-14"
           />
           <span className="hidden border-l border-border-soft pl-3 text-[0.68rem] uppercase leading-tight tracking-[0.14em] text-muted sm:block">
             Veranstaltungs- &amp;
